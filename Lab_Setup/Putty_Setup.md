@@ -70,7 +70,7 @@ Keep this IP handy.
 
 ### Step 2: Configure PuTTY Session
 
-![image alt](
+![image alt](https://github.com/ThmiD89/Wazuh/blob/d87ebe2e75e0b3fc287feaca2786f9b6e241fb3b/Pictures/Screenshot%202026-05-17%20143155.png)
 
 1. In PuTTY, set the following:
 
@@ -91,6 +91,8 @@ Keep this IP handy.
 3. Login as:
    - **Username:** `wazuh-user` (or your Ubuntu username)
    - **Password:** (type it – no characters will appear, this is normal)
+
+![image alt](https://github.com/ThmiD89/Wazuh/blob/d87ebe2e75e0b3fc287feaca2786f9b6e241fb3b/Pictures/Screenshot%202026-05-17%20144608.png)
 
 ### Step 4: Verify Connection
 
