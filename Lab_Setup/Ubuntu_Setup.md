@@ -139,7 +139,20 @@ Example: `192.168.1.100`
 | SSH connection refused              | Run `sudo systemctl status ssh` and `sudo ufw allow 22`                  |
 
 
-
-
-    
+Screenshots for helping the installation process :
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20161626.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20170126.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20175850.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20180533.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20180738.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20180931.png)    
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20181008.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20181214.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20181557.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20182822.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20182921.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20183219.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20183340.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20183416.png)
+![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20184522.png)
 
