@@ -26,6 +26,8 @@ You are a security analyst tasked with deploying an open-source SIEM solution (W
 
 ## Step 1: Create a New Virtual Machine
 
+![image alt](https://github.com/ThmiD89/Wazuh/blob/77b5be188b232558519b62b18404484ce10f17f3/Pictures/Screenshot%202026-05-17%20135328.png)
+
 1. Open **VirtualBox**.
 2. Click **New**.
 3. Configure the VM:
@@ -38,6 +40,7 @@ You are a security analyst tasked with deploying an open-source SIEM solution (W
 ---
 
 ## Step 2: Allocate Hardware Resources
+![image alt](https://github.com/ThmiD89/Wazuh/blob/53d974bde0e837feb2b8a9241c38e679bedb1896/Pictures/Screenshot%202026-05-17%20134943.png)
 
 | Setting          | Recommended Value           | Minimum         |
 |-----------------|-----------------------------|-----------------|
@@ -54,6 +57,7 @@ Click **Next** → **Finish**.
 
 ## Step 3: Configure Network for Windows Access (Important)
 
+![image alt](https://github.com/ThmiD89/Wazuh/blob/c4b619a6e0df6d96dbe24415a78d423dd2b4d82a/Pictures/Screenshot%202026-05-16%20190445.png)
 1. Select your `Ubuntu-Wazuh` VM.
 2. Click **Settings** → **Network**.
 3. **Adapter 1** tab:
@@ -154,5 +158,5 @@ Screenshots for helping the installation process :
 ![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20183219.png)
 ![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20183340.png)
 ![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20183416.png)
-![image alt](https://github.com/ThmiD89/Wazuh/blob/da4ecbc2ff2c0a710eaecef5293fc6247f30f5a2/Pictures/Screenshot%202026-05-16%20184522.png)
+
 
