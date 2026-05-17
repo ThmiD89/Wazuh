@@ -29,6 +29,8 @@ Your Ubuntu VM is running headlessly (no GUI) or you prefer working from your Wi
 
 ### Step 1: Download PuTTY
 
+![image alt](https://github.com/ThmiD89/Wazuh/blob/6821197e387757ad92842ae809c64b717ddc34b9/Pictures/Screenshot%202026-05-17%20140310.png)
+
 1. Open a browser on Windows.
 2. Go to: [https://www.putty.org/](https://www.putty.org/)
 3. Click the **Download PuTTY** link.
