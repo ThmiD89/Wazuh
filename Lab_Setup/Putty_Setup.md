@@ -66,6 +66,8 @@ Example IP: `192.168.1.100`
 
 Keep this IP handy.
 
+![image alt](https://github.com/ThmiD89/Wazuh/blob/a9c35f13b8097a3f069e882ff95a9f62b3e6403c/Pictures/Screenshot%202026-05-17%20140727.png)
+
 ### Step 2: Configure PuTTY Session
 
 1. In PuTTY, set the following:
