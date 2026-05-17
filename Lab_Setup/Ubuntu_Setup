@@ -1,1 +1,108 @@
+# 1. Install Ubuntu on VirtualBox
 
+This guide walks you through creating an Ubuntu virtual machine in VirtualBox.  
+The VM will later host the Wazuh SIEM platform.
+
+## Prerequisites
+
+- [VirtualBox](https://www.virtualbox.org/) installed on Windows/macOS/Linux
+- Ubuntu Server or Desktop ISO (22.04 LTS recommended) – [Download here](https://ubuntu.com/download/server)
+
+---
+
+## Step 1: Create a New Virtual Machine
+
+1. Open **VirtualBox**.
+2. Click **New**.
+3. Configure the VM:
+   - **Name:** `Ubuntu-Wazuh`
+   - **Folder:** your preferred location (e.g., `C:\VMs\`)
+   - **ISO Image:** click the dropdown → **Choose a disk file** → select your downloaded Ubuntu ISO
+   - **Skip Unattended Installation:** ✅ **UNCHECK** this box (we want manual control)
+
+4. Click **Next**.
+
+---
+
+## Step 2: Allocate Hardware Resources
+
+| Setting          | Recommended Value           | Minimum         |
+|-----------------|-----------------------------|-----------------|
+| **Memory (RAM)** | 8192 MB (8 GB)              | 4096 MB (4 GB)  |
+| **CPU Cores**    | 2 (or more if available)    | 1               |
+| **Disk Size**    | 25 GB or more               | 20 GB           |
+
+- **Hard disk type:** `VDI (VirtualBox Disk Image)` or `VMDK`
+- **Storage on physical hard disk:** `Dynamically allocated`
+
+Click **Next** → **Finish**.
+
+---
+
+## Step 3: Configure Network for Windows Access (Important)
+
+1. Select your `Ubuntu-Wazuh` VM.
+2. Click **Settings** → **Network**.
+3. **Adapter 1** tab:
+   - **Enable Network Adapter:** ✅ checked
+   - **Attached to:** choose one:
+
+| Mode        | When to use                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| **Bridged** | Windows needs to reach Ubuntu by IP (recommended for PuTTY / WinSCP / Wazuh) |
+| **NAT**     | Ubuntu can access internet, but Windows can't reach Ubuntu by default        |
+
+> ⚠️ If you choose **NAT**, you'll need extra port forwarding to access Ubuntu from Windows.  
+> **Bridged** is simpler for this setup.
+
+Click **OK**.
+
+---
+
+## Step 4: Install Ubuntu
+
+1. **Start** the VM.
+2. Follow the Ubuntu installer prompts:
+
+   - **Language:** `English`
+   - **Keyboard layout:** as preferred
+   - **Type of installation:** `Minimal` (or `Ubuntu Server` if using server ISO)
+
+3. **Network setup** (if asked):
+   - DHCP is fine – the VM will get an automatic IP
+
+4. **Storage configuration:**
+   - Use **Entire disk** (default)
+
+5. **Profile setup:**
+   - **Your name:** `Wazuh User` (or any)
+   - **Computer name:** `wazuh-server` (or keep default)
+   - **Username:** `wazuh-user`
+   - **Password:** choose a **strong password** (save it)
+
+6. **SSH setup (very important!):**
+   - ✅ **Check** `Install OpenSSH server`
+   - This allows PuTTY/WinSCP connections later
+
+7. **Featured server snaps:**  
+   - Skip (none needed)
+
+8. Click **Install** and wait for completion.
+
+---
+
+## Step 5: First Boot & Post-Installation
+
+1. When installation finishes, click **Reboot**.
+2. The VM will restart.  
+   - If asked to remove installation medium, press **Enter**.
+3. Log in with your username (`wazuh-user`) and password.
+
+---
+
+## Step 6: Verify Ubuntu is Ready
+
+Inside the Ubuntu VM, run:
+
+```bash
+ip a
