@@ -70,6 +70,8 @@ Keep this IP handy.
 
 ### Step 2: Configure PuTTY Session
 
+![image alt](
+
 1. In PuTTY, set the following:
 
 | Field           | Value                          |
